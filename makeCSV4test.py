@@ -1,3 +1,6 @@
+# make csv file as test data for input validation.
+# prepare sample.csv which can pass the validation,
+# and test_case.csv that indicates which property needs to change.
 
 def readFile(file_name):
     with open(file_name, 'r', encoding='utf-8') as f:
